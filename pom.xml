@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+                            http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Informações do projeto -->
+    <groupId>com.example</groupId>
+    <artifactId>meu-projeto</artifactId>
+    <version>1.0.0</version>
+    <name>Meu Projeto</name>
+    <description>Descrição do meu projeto</description>
+
+    <!-- Dependências -->
+    <dependencies>
+        <dependency>
+            <groupId>com.github.wmixvideo</groupId>
+            <artifactId>nfe</artifactId>
+            <version>4.0.41</version>
+        </dependency>
+        <!-- Outras dependências -->
+    </dependencies>
+
+    <!-- Outras configurações, como plugins, perfis, etc. -->
+    <configuration>
+        <archive>
+            <manifest>
+                <mainClass>com.example.Main</mainClass>
+            </manifest>
+        </archive>
+    </configuration>
+</project>
